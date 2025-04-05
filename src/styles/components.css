@@ -25,3 +25,9 @@
 .btn-span {
   color: var(--color-white);
 }
+
+/* Text Link */
+.text-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}

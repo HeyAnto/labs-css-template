@@ -2,15 +2,12 @@
 .flex {
   display: flex;
 }
-
 .flex-row {
   flex-direction: row;
 }
-
 .flex-column {
   flex-direction: column;
 }
-
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -19,15 +16,12 @@
 .justify-start {
   justify-content: flex-start;
 }
-
 .justify-end {
   justify-content: flex-end;
 }
-
 .justify-center {
   justify-content: center;
 }
-
 .justify-between {
   justify-content: space-between;
 }
@@ -36,14 +30,13 @@
 .items-start {
   align-items: flex-start;
 }
-
 .items-end {
   align-items: flex-end;
 }
-
 .items-center {
   align-items: center;
 }
+
 /* Gap */
 .gap-1 {
   gap: calc(var(--spacing-unit) * 1);
@@ -60,9 +53,11 @@
 .gap-5 {
   gap: calc(var(--spacing-unit) * 5);
 }
-
 .gap-10 {
   gap: calc(var(--spacing-unit) * 10);
+}
+.gap-50 {
+  gap: calc(var(--spacing-unit) * 50);
 }
 
 /* Padding */
@@ -81,11 +76,9 @@
 .p-5 {
   padding: calc(var(--spacing-unit) * 5);
 }
-
 .p-10 {
   padding: calc(var(--spacing-unit) * 10);
 }
-
 .p-25 {
   padding: calc(var(--spacing-unit) * 25);
 }

@@ -4,6 +4,7 @@ import logo from "../assets/logo.svg";
 
 const navItems = {
   Introduction: "/",
+  Globals: "/globals",
 };
 
 const Sidebar = forwardRef(function Sidebar(_, ref) {
