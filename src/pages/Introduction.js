@@ -37,26 +37,26 @@ export default function Introduction() {
         <div>
           <h2>Structure des fichiers</h2>
           <p>
-            Le fichier principal (
-            <Link to="/globals" className="p-link">
+            Le fichier principal
+            <Link to="/globals" className="mark-link">
               globals.css
             </Link>
-            ) importe les sous-fichiers essentiels (
-            <Link to="/composants" className="p-link">
+            importe les sous-fichiers essentiels
+            <Link to="/composants" className="mark-link">
               components.css
             </Link>
-            ) et (
-            <Link to="/utilities" className="p-link">
+            et
+            <Link to="/utilities" className="mark-link">
               utilities.css
             </Link>
-            ), qui définissent les styles réutilisables dans tous vos layouts.
+            , qui définissent les styles réutilisables dans tous vos layouts.
             <br />
             <br />
-            Un quatrième fichier (
-            <Link to="/layout" className="p-link">
+            Un quatrième fichier
+            <Link to="/layout" className="mark-link">
               layout.css
             </Link>
-            ) gère spécifiquement la mise en page. Comme plusieurs variantes
+            gère spécifiquement la mise en page. Comme plusieurs variantes
             peuvent exister (selon les sections ou pages), il permet une
             organisation flexible tout en restant modulaire.
           </p>
@@ -81,11 +81,11 @@ export default function Introduction() {
           globale et des modifications simplifiées. Pour les mises en page
           complexes, combinez intelligemment les classes utilitaires existantes
           afin de limiter la duplication de code. Enfin, intégrez tout nouveau
-          composant dans (
-          <Link to="/composants" className="p-link">
+          composant dans
+          <Link to="/composants" className="mark-link">
             components.css
           </Link>
-          ) pour maintenir une architecture propre et évolutive.
+          pour maintenir une architecture propre et évolutive.
         </p>
       </section>
 

@@ -28,23 +28,14 @@
 
 /* Mark Link */
 .mark-link {
-  background-color: var(--color-light-grey);
-  padding: 0px 6px;
+  font-family: var(--font-family-mono);
+  background-color: var(--color-grey);
+  padding: 2px 6px;
   margin: 0px 6px;
+  font-size: 90%;
   border-radius: 4px;
 }
 
 .mark-link:hover {
-  opacity: 0.6;
-}
-
-/* Text Link */
-.p-link {
-  color: var(--color-blue);
-  text-decoration: underline;
-  text-underline-offset: 4px;
-}
-
-.p-link:hover {
   opacity: 0.6;
 }

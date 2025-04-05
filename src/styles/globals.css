@@ -6,11 +6,17 @@
   src: url(../fonts/BDOGrotesk-VF.ttf) format("truetype");
 }
 
+@font-face {
+  font-family: "Commit Mono";
+  src: url(../fonts/CommitMono-400-Regular.otf) format("opentype");
+}
+
 :root {
   /* Primary Color */
   --color-dark: #000000;
   --color-white: #ffffff;
   --color-light-grey: #e6e6e6;
+  --color-grey: #d6d6d6;
 
   /* Secondary Color */
   --color-blue: #0084ff;
@@ -18,6 +24,7 @@
 
   /* Font Family */
   --font-family: "BDO Grotesk", sans-serif;
+  --font-family-mono: "Commit Mono", monospace;
 
   /* Font Size */
   --font-size-p: 1rem;
@@ -30,7 +37,7 @@
   --font-weight-bold: 700;
 
   /* Line heights */
-  --line-height-p: 23px;
+  --line-height-p: 22px;
   --line-height-h1: 45px;
   --line-height-h2: 34px;
 
