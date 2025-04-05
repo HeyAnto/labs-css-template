@@ -5,7 +5,6 @@
 
   font-family: var(--font-family);
   font-size: var(--font-size-p);
-  color: var(--color-dark);
 
   transition: all 0.3s;
 }
@@ -25,8 +24,7 @@ main {
   width: 100%;
   max-width: 1920px;
 
-  border-left: solid 1px var(--color-dark);
-  border-right: solid 1px var(--color-dark);
+  border: solid 1px var(--color-dark);
 }
 
 .main-container {

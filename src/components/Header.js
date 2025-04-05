@@ -68,7 +68,12 @@ export default function Header({ sidebarRef }) {
         <span className="btn-span hide-on-mobile">Télécharger</span>
       </a>
 
-      <a className="btn btn-primary flex gap-3" href="#">
+      <a
+        className="btn btn-primary flex gap-3"
+        href="https://github.com/HeyAnto/labs-css-template"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img src={githubIcon} alt="GitHub" />
         <span className="btn-span hide-on-mobile">GitHub</span>
       </a>

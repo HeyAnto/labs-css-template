@@ -68,6 +68,7 @@ p {
 
 /* Reset */
 a {
+  color: var(--color-dark);
   text-decoration: none;
   cursor: pointer;
 }
