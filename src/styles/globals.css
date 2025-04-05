@@ -1,0 +1,78 @@
+@import url("components.css");
+@import url("utilities.css");
+
+@font-face {
+  font-family: "BDO Grotesk";
+  src: url(../fonts/BDOGrotesk-VF.ttf) format("truetype");
+}
+
+:root {
+  /* Primary Color */
+  --color-dark: #000000;
+  --color-white: #ffffff;
+  --color-light-grey: #e6e6e6;
+
+  /* Secondary Color */
+  --color-green: #00be50;
+
+  /* Font Family */
+  --font-family: "BDO Grotesk", sans-serif;
+
+  /* Font Size */
+  --font-size-p: 1rem;
+  --font-size-h1: 2rem;
+  --font-size-h2: 1.5rem;
+
+  /* Font Weight */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* Line heights */
+  --line-height-p: 23px;
+  --line-height-h1: 45px;
+  --line-height-h2: 34px;
+
+  /* Spacing Scale (Base: 2px / 0.125rem) */
+  --spacing-unit: 0.125rem;
+}
+
+::selection {
+  color: var(--color-white);
+  background: var(--color-dark);
+}
+
+/* Font Style */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: var(--font-weight-medium);
+}
+
+h1 {
+  font-size: var(--font-size-h1);
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+}
+
+p {
+  font-size: var(--font-size-p);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-p);
+}
+
+/* Reset */
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  background: none;
+  border: none;
+}
