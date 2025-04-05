@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import emojiPaper from "../assets/images/emoji/emoji-paper.webp";
 
 export default function Introduction() {
@@ -36,15 +37,28 @@ export default function Introduction() {
         <div>
           <h2>Structure des fichiers</h2>
           <p>
-            Le fichier principal (globals.css) importe les sous-fichiers
-            essentiels (components.css et utilities.css), qui définissent les
-            styles réutilisables dans tous vos layouts.
+            Le fichier principal (
+            <Link to="/globals" className="p-link">
+              globals.css
+            </Link>
+            ) importe les sous-fichiers essentiels (
+            <Link to="/composants" className="p-link">
+              components.css
+            </Link>
+            ) et (
+            <Link to="/utilities" className="p-link">
+              utilities.css
+            </Link>
+            ), qui définissent les styles réutilisables dans tous vos layouts.
             <br />
             <br />
-            Un quatrième fichier (layout.css) gère spécifiquement la mise en
-            page. Comme plusieurs variantes peuvent exister (selon les sections
-            ou pages), il permet une organisation flexible tout en restant
-            modulaire.
+            Un quatrième fichier (
+            <Link to="/layout" className="p-link">
+              layout.css
+            </Link>
+            ) gère spécifiquement la mise en page. Comme plusieurs variantes
+            peuvent exister (selon les sections ou pages), il permet une
+            organisation flexible tout en restant modulaire.
           </p>
         </div>
 
@@ -67,8 +81,11 @@ export default function Introduction() {
           globale et des modifications simplifiées. Pour les mises en page
           complexes, combinez intelligemment les classes utilitaires existantes
           afin de limiter la duplication de code. Enfin, intégrez tout nouveau
-          composant dans (components.css) pour maintenir une architecture propre
-          et évolutive.
+          composant dans (
+          <Link to="/composants" className="p-link">
+            components.css
+          </Link>
+          ) pour maintenir une architecture propre et évolutive.
         </p>
       </section>
 

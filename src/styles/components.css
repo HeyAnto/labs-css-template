@@ -26,8 +26,25 @@
   color: var(--color-white);
 }
 
+/* Mark Link */
+.mark-link {
+  background-color: var(--color-light-grey);
+  padding: 0px 6px;
+  margin: 0px 6px;
+  border-radius: 4px;
+}
+
+.mark-link:hover {
+  opacity: 0.6;
+}
+
 /* Text Link */
-.text-link:hover {
+.p-link {
+  color: var(--color-blue);
   text-decoration: underline;
-  text-underline-offset: 5px;
+  text-underline-offset: 4px;
+}
+
+.p-link:hover {
+  opacity: 0.6;
 }
